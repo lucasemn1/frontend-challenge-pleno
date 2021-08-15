@@ -1,3 +1,4 @@
+@import "./variables.scss";
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +10,16 @@ ul {
   list-style: none;
 }
 
+.swiper-pagination > .swiper-pagination-bullet {
+  opacity: 1;
+  border: 1px solid var(--light-color);
+  background-color: transparent;
+}
+.swiper-pagination > .swiper-pagination-bullet-active {
+  border-color: transparent;
+  background-color: var(--primary-color);
+}
+
 @import "./layout.scss";
 @import "./typography.scss";
-@import "./variables.scss";
+@import "./buttons.scss";
