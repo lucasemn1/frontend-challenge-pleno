@@ -1,0 +1,44 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  padding: 1rem;
+
+  a {
+    color: white;
+  }
+
+  & > .content {
+    height: 1.85625rem;
+
+    &,
+    & > span,
+    & > span > ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    & > span {
+      margin-left: 3.75rem;
+      flex: 1;
+      justify-content: space-between;
+    }
+
+    & > span > ul {
+      gap: 30px;
+    }
+  }
+
+  .start > a {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--light-color);
+    border-radius: 1rem;
+  }
+
+  .start:hover > a {
+    color: var(--dark-color);
+    background-color: var(--light-color);
+    transition: 0.1s;
+    font-weight: bold;
+  }
+}

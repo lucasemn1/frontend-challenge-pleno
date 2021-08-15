@@ -5,4 +5,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 @import "./layout.scss";
+@import "./typography.scss";
+@import "./variables.scss";
