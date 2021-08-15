@@ -1,72 +1,34 @@
-<p align="center"><a href="https://ezoom.com.br" target="_blank"><img src="https://www.ezoom.com.br/application/modules/comum/assets/img/logo-ezoom.png" width="400"></a></p>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Frontend Challenge Pleno
+## Getting Started
 
-## Teste para a vaga de Frontend Pleno
+First, run the development server:
 
-- O prazo de entrega do teste é de até 7 dias, mas caso você tenha algum imprevisto sinalize o novo prazo e o motivo;
-- O mais importante é você desenvolver as skills solicitadas ou passar um tempo a mais demonstrando suas habilidades do que entregar algo incompleto ou que não atenda todos os requisitos deste teste.
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-## Requisitos
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Faça um fork deste repositório;
-- Leia todo este arquivo README.md para entender o que será avaliado;
-- Codificar o layout seguindo o PSD deste repositório;
-- Fontes: [Roboto](https://fonts.google.com/specimen/Roboto), [Raleway](https://fonts.google.com/specimen/Raleway)
-- No fullbanner com slider, usar o [swiper](http://idangero.us/swiper/) ou outro slider de preferência. Utilizar o slider em outras seções contam pontos;
-- A interface deve ser 100% responsiva;
-- Utilize os padrões do mercado para os pontos de quebra e o estilo das sessões no mobile, mas é importante que o site se adapte e fique legível;
-- Você tem total liberdade para criar efeitos nas sessões do site;
-- Utilize o [json-server](https://github.com/typicode/json-server) para simular uma API com o arquivo "db.json" contido neste repositório;
-- Forneça uma documentação, por meio de um arquivo README.md, acerca do seu projeto. Inclua instruções e comentários que julgar pertinentes à avaliação.
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Você pode
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-- Utilizar webpack ou similares para o pré-processamento do código;
-- Utilize a tecnologia que melhor lhe favoreça PHP (Codeigniter, Laravel) ou React, Vue.
-- Se por algum motivo não conseguir rodar o [json-server](https://github.com/typicode/json-server), chame o arquivo db.json através do [Fetch Api](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
-- Se preferir se aventurar, você pode gerar outra paleta de cores que te agrade nesse site (https://coolors.co).
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Critérios de Avaliação
+## Learn More
 
-- Qualidade do código;
-- Cumprimento dos requisitos;
-- Fidelidade da interface;
-- Responsividade da aplicação, observar a adaptação em diferentes dispositivos;
-- Seu empenho, não tem problema se algo sair errado, mas tente;
-- Avaliamos todo seu processo de desenvolvimento, commit por commit, portanto NÃO FAÇA apenas um commit para todo projeto.
+To learn more about Next.js, take a look at the following resources:
 
-## Dicas
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- Navegue pelo site da https://www.ezoom.com.br/ e visite também o site de nossos clientes;
-- Capriche, demonstre suas habilidades, explore efeitos, utilize em todas as seções e seja detalhista;
-- Utilizar um padrão de código como o RSCSS conta pontos;
-- Tente utilizar o JS além do Swiper, veja algumas seções em que você possa inserir algumas funções. Não precisa ser nada complexo;
-- Plugins JS são bem vindos contanto que sejam utilizados de forma inteligente;
-- Ainda não domina algumas das skills? Foque no que você sabe e utilize o tempo restante pra aprender o que não sabe. Afinal essas habilidades serão utilizadas na sua rotina de trabalho;
-- Caso queira nos encaminhar junto algum(ns) outro(s) trabalho(s) ou link(s) que considere interessante, fique a vontade, adoramos ver o que você já desenvolveu, mas a maior parte da avaliação será feita em cima da proposta mencionada aqui.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Atenção
+## Deploy on Vercel
 
-Não serão avaliados testes técnicos cuja aplicação não esteja hospedada. O acesso deve estar disponível através de uma URL (você pode usar plataformas gratuitas, como Vercel, Netlify, Heroku e afins), que obrigatoriamente deve ser informada na documentação e email de entrega.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Sobre a entrega
-
-O teste deverá ser efetuado em até 7 dias a partir do recebimento das instruções, respondendo à mesma conversa de email onde enviamos o link do desafio. Inclua na sua resposta o link do seu fork e envie também o link para o review online da aplicação.
-
-Se por algum motivo não for possível cumprir com o prazo, por gentileza, nos informe via email.
-
-# Sobre a Ezoom
-
-Aqui na Ezoom possuímos diversos projetos desenvolvidos em PHP, assim como também mantemos dois frameworks/boilerplates internos baseados no framework Codeigniter, para CMS e outras coisas. Portanto se desenvolver esta aplicação baseando-se no CodeIgniter será muito bem-vindo, além de demonstrar um breve conhecimento com PHP.
-
-## Irei trabalhar só com CodeIgniter aí na Ezoom?
-
-**NÃO!** Aqui nós trabalhamos com todo tipo de linguagem, framework, plataforma e precompilador que você pode imaginar, como [Node](https://nodejs.org/), [React](https://reactjs.org/), [React Native](https://facebook.github.io/react-native/), [Ionic](https://ionicframework.com/), [Angular](https://angular.io/), [TypeScript](https://www.typescriptlang.org/), [Next.js](https://nextjs.org/), [OpenCart](https://www.opencart.com/), [Laravel](https://laravel.com/), [Swift](https://developer.apple.com/swift/), [Xcode](https://developer.apple.com/xcode/), [LESS](http://lesscss.org/), [SASS](https://sass-lang.com/), [Webpack](https://webpack.js.org/), [Gulp](https://gulpjs.com/) etc. além do básico PHP, HTML, CSS e JavaScript. As oportunidades são infinitas. PHP é uma das principais tecnologias, mas isto muitas vezes varia de projeto para projeto.
-
-# Sugestões?
-
-Tem sugestões de melhorias para esse teste? Fique a vontade para fazer um fork com melhorias, pull requests ou abrir issues com o que passar na sua mente.
-
-Bom teste!
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
