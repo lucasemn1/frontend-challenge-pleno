@@ -18,7 +18,7 @@ export default function CarouselItem(props: Props) {
         className={styles.image}
       />
 
-      <span className={styles.content}>
+      <span className={`content ${styles.content}`}>
         <h1>{props.media.name}</h1>
         <p>{props.media.synopsis}</p>
         <span>

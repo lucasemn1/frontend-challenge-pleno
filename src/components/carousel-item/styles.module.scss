@@ -10,13 +10,13 @@
 .content {
   position: absolute;
   z-index: 2;
-  width: 100%;
   max-width: 62.0625rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 3.0625rem;
   color: var(--light-color);
+  text-align: center;
 
   & > h1 {
     font-weight: bold;
