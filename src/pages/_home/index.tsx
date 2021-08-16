@@ -16,14 +16,15 @@ export default function HomePage() {
           className={styles.client}
           src="/assets/img/warner_logo.png"
           alt=""
-          width="100"
+          layout="fixed"
+          width="85"
           height="80"
         />
         <Image
           className={styles.client}
           src="/assets/img/disney_logo.png"
           alt=""
-          layout="intrinsic"
+          layout="fixed"
           width="180"
           height="80"
         />
@@ -31,7 +32,7 @@ export default function HomePage() {
           className={styles.client}
           src="/assets/img/paramount_logo.png"
           alt=""
-          layout="intrinsic"
+          layout="fixed"
           width="160"
           height="80"
         />
@@ -39,8 +40,8 @@ export default function HomePage() {
           className={styles.client}
           src="/assets/img/dc_logo.png"
           alt=""
-          layout="intrinsic"
-          width="105"
+          layout="fixed"
+          width="85"
           height="80"
         />
       </div>
