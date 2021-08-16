@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 
 // Icons
-import { MdMenu } from "react-icons/md";
+import { MdMenu, MdSearch } from "react-icons/md";
 
 // Styles
 import styles from "./styles.module.scss";
@@ -41,7 +41,11 @@ export default function Navbar() {
           </ul>
 
           <ul>
-            <li>Buscar</li>
+            <li>
+              <button className={styles.search}>
+                <MdSearch />
+              </button>
+            </li>
             <li>
               <Link href="#">Ajuda</Link>
             </li>

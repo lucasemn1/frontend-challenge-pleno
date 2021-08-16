@@ -50,6 +50,14 @@
     transition: 0.1s;
     font-weight: bold;
   }
+
+  .search {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    font-size: 1.4rem;
+    margin: 0;
+  }
 }
 
 @media (max-width: 960px) {
