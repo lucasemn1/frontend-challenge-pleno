@@ -108,6 +108,10 @@
   .topReviews {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .support {
+    background-image: none;
+  }
 }
 
 @media (max-width: 960px) {
