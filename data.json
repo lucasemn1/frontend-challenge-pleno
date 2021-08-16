@@ -1,0 +1,28 @@
+{
+  "topThreeRecent": [
+    {
+      "id": 1,
+      "name": "Zack Snyder's Justice League",
+      "synopsis": "Bruce Wayne e Diana Prince tentam reunir os metahumanos da Terra após a morte de Clark Kent. Enquanto isso, Darkseid envia Steppenwolf para a Terra com um vasto exército para subjugar os humanos.",
+      "legend": "Reunião dos heróis de cinema da DC Commics na versão do diretor.",
+      "imageUrl": "/assets/img/snydercut.jpg",
+      "score": 3.55
+    },
+    {
+      "id": 2,
+      "name": "Mulher Maravilha 1984",
+      "synopsis": "A Mulher Maravilha está lutando contra dois oponentes, Maxwell Lord, um empresário astuto, e Barbara Minerva, uma amiga que virou inimiga. Enquanto isso, ela também acaba cruzando com seu interesse amoroso.",
+      "legend": "Segundo filme da maior heroína da DC Commics.",
+      "imageUrl": "/assets/img/ww84.jpg",
+      "score": 2.95
+    },
+    {
+      "id": 3,
+      "name": "Wanda Vision",
+      "synopsis": "Vivendo vidas suburbanas idealizadas, os seres superpoderosos Wanda e Vision começam a suspeitar que tudo não é o que parece.",
+      "legend": "Primeira série Marvel dentro do seu universo cinematográfico.",
+      "imageUrl": "/assets/img/wandavision.jpg",
+      "score": 4.55
+    }
+  ]
+}

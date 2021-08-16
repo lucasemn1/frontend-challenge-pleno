@@ -36,9 +36,6 @@ export default function Navbar() {
               <Link href="#">Sobre</Link>
             </li>
             <li>
-              <Link href="#">Preço</Link>
-            </li>
-            <li>
               <Link href="#">Desenvolvedores</Link>
             </li>
           </ul>

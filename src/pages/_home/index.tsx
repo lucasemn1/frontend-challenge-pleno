@@ -1,15 +1,40 @@
-// Components
+// Next
+import { GetStaticProps } from "next";
 import Image from "next/image";
+
+// Components
 import Carousel from "../../components/carousel";
 import { MdStar } from "react-icons/md";
 
 // Styles
 import styles from "./styles.module.scss";
 
-export default function HomePage() {
+// Intefaces
+import Media from "../../interfaces/media";
+
+export interface HomeProps {
+  topThreeRecent: Media[];
+}
+
+export default function HomePage(props: HomeProps) {
+  function renderTopReviews() {
+    return props.topThreeRecent.map((media) => {
+      return (
+        <span key={media.id}>
+          <div className={styles.starsArea}>
+            <MdStar />
+            <h2>{media.score}</h2>
+          </div>
+          <h2>{media.name}</h2>
+          <p>{media.legend}</p>
+        </span>
+      );
+    });
+  }
+
   return (
     <>
-      <Carousel />
+      <Carousel medias={props.topThreeRecent} />
 
       <div className={`content ${styles.clients}`}>
         <Image
@@ -46,41 +71,7 @@ export default function HomePage() {
         />
       </div>
 
-      <div className={`content ${styles.topReviews}`}>
-        <span>
-          <div className={styles.starsArea}>
-            <MdStar />
-            <h2>4.5</h2>
-          </div>
-          <h2>Mulher Mararvilha</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos odit
-            corporis ullam.
-          </p>
-        </span>
-        <span>
-          <div className={styles.starsArea}>
-            <MdStar />
-            <h2>4.5</h2>
-          </div>
-          <h2>Mulher Mararvilha</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos odit
-            corporis ullam.
-          </p>
-        </span>
-        <span>
-          <div className={styles.starsArea}>
-            <MdStar />
-            <h2>4.5</h2>
-          </div>
-          <h2>Mulher Mararvilha</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos odit
-            corporis ullam.
-          </p>
-        </span>
-      </div>
+      <div className={`content ${styles.topReviews}`}>{renderTopReviews()}</div>
 
       <div className={styles.support}>
         <section className={`content ${styles.content}`}>

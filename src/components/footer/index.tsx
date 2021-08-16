@@ -35,9 +35,6 @@ export default function Footer() {
             <Link href="#">Sobre</Link>
           </li>
           <li>
-            <Link href="#">Preços</Link>
-          </li>
-          <li>
             <Link href="#">Desenvolvedores</Link>
           </li>
           <li>
