@@ -44,7 +44,7 @@ export default function Carousel() {
 
   return (
     <>
-      <Swiper pagination={true} className={styles.carousel}>
+      <Swiper pagination={true} className={styles.carousel} autoplay={true}>
         {renderItems()}
       </Swiper>
     </>

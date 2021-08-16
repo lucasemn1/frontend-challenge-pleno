@@ -4,7 +4,7 @@ import DefaultTemplate from "../templates/default";
 function MyApp({ Component, pageProps }) {
   return (
     <DefaultTemplate>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </DefaultTemplate>
   );
 }

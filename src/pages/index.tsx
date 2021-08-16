@@ -1,9 +1,10 @@
-import Carousel from "../components/carousel";
+// Page
+import HomePage from "./_home";
 
 export default function Home() {
   return (
     <>
-      <Carousel />
+      <HomePage />
     </>
   );
 }

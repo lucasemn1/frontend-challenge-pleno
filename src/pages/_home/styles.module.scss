@@ -1,0 +1,74 @@
+.clients {
+  height: 100px;
+  margin-top: 3rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.client {
+  width: 1rem;
+  filter: grayscale(1);
+  transition: 0.1s;
+
+  &:hover {
+    filter: grayscale(0);
+    transition: 0.1s;
+  }
+}
+
+.topReviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  height: 15rem;
+  margin-top: 4rem;
+
+  & > span {
+    border-radius: 5px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &:nth-child(odd) {
+      color: var(--light-color);
+      background-color: var(--primary-color);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+
+    &:nth-child(even) {
+      & > .starsArea {
+        color: var(--primary-color);
+      }
+    }
+
+    & > .starsArea {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+
+      & > svg {
+        width: 64px;
+        height: 64px;
+      }
+
+      & > h2 {
+        font-size: 3rem;
+      }
+    }
+
+    & > h2 {
+      font-weight: lighter;
+      font-size: 1.426875rem;
+      margin-top: 1rem;
+    }
+
+    & > p {
+      text-align: center;
+      margin-top: 2rem;
+    }
+  }
+}

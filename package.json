@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/swiper": "^5.4.3",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
     "sass": "^1.37.5",
     "swiper": "^6.8.1",
     "typescript": "^4.3.5"
@@ -20,6 +20,8 @@
   "devDependencies": {
     "@types/node": "^16.4.13",
     "@types/react": "^17.0.16",
+    "@types/swiper": "^5.4.3",
+    "@types/react-icons": "^3.0.0",
     "eslint": "7.32.0",
     "eslint-config-next": "11.0.1"
   }
