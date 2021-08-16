@@ -5,6 +5,7 @@
   padding: 6rem 5rem;
   background-color: var(--dark-color);
   color: var(--light-color);
+  text-align: center;
 
   & > h2 {
     font-size: 1.875rem;
@@ -62,7 +63,10 @@
 
 @media (max-width: 600px) {
   .footer {
-    &, &> ul {
+    gap: 3rem;
+
+    &,
+    & > ul {
       flex-direction: column;
     }
   }
