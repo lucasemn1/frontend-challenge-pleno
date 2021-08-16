@@ -41,6 +41,7 @@
 .footer {
   padding: 2rem 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 
@@ -56,5 +57,13 @@
 
   & > h3 {
     color: var(--background-contrast-color);
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    &, &> ul {
+      flex-direction: column;
+    }
   }
 }

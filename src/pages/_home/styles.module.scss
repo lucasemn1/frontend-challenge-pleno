@@ -101,3 +101,9 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .topReviews {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
