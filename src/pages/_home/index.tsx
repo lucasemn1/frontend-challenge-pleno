@@ -80,6 +80,21 @@ export default function HomePage() {
           </p>
         </span>
       </div>
+
+      <div className={styles.support}>
+        <section className={`content ${styles.content}`}>
+          <h1>Atendimento ao cliente</h1>
+          <p>
+            Precisando entrar em contato, utilize nossos canais de atendimento
+            ou consulte a documentação para mais informações.
+          </p>
+
+          <div className={styles.buttons}>
+            <button className="gray-button">Envie um ticket</button>
+            <button>Documentação</button>
+          </div>
+        </section>
+      </div>
     </>
   );
 }

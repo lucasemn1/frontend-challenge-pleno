@@ -23,7 +23,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   height: 15rem;
-  margin-top: 4rem;
+  margin-top: 8rem;
 
   & > span {
     border-radius: 5px;
@@ -68,6 +68,35 @@
 
     & > p {
       text-align: center;
+      margin-top: 2rem;
+    }
+  }
+}
+
+.support {
+  display: flex;
+  align-items: center;
+  min-height: 24.5rem;
+  margin-top: 6rem;
+  background-image: url("/assets/img/computer.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% center;
+  background-size: 40rem;
+
+  & > .content {
+    display: flex;
+    flex-direction: column;
+
+    & > p {
+      width: 100%;
+      max-width: 750px;
+      margin-top: 1rem;
+    }
+
+    & > .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.3rem;
       margin-top: 2rem;
     }
   }

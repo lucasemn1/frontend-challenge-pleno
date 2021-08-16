@@ -1,3 +1,5 @@
+// Components
+import Footer from "../../components/footer";
 import Navbar from "../../components/navbar";
 
 export default function DefaultTemplate({ children }) {
@@ -6,6 +8,8 @@ export default function DefaultTemplate({ children }) {
       <Navbar />
 
       {children}
+
+      <Footer />
     </div>
   );
 }

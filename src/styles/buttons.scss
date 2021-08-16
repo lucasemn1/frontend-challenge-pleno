@@ -13,3 +13,12 @@ button {
     transition: 0.1s;
   }
 }
+
+.gray-button {
+  background-color: var(--gray-color);
+  border-color: var(--gray-color-2);
+
+  &:hover {
+    background-color: var(--gray-color-2);
+  }
+}
